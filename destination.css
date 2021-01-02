@@ -1,0 +1,37 @@
+html{
+	margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Helvetica', Arial, sans-serif;
+    background: url(m9TZSOp.jpeg) center no-repeat;
+    background-size: cover;
+    z-index: 1;
+    opacity: 0.8;
+    /*https://unsplash.com */
+    height: 100%;
+    color: aliceblue;
+}
+*{
+    box-sizing: border-box;
+}
+table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    background-color: black;
+    margin: auto;
+}
+td
+{
+    border: 2px solid whitesmoke;
+    padding: 15px 30px;
+    
+}
+.strong{
+    color: tomato;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+h1{
+    text-align: center;
+    padding-top: 25px;
+}
