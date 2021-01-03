@@ -1,99 +1,83 @@
-html{
-	margin: 0;
-    padding: 0;
-    text-decoration: none;
+html {
     font-family: 'Helvetica', Arial, sans-serif;
     background: url(m9TZSOp.jpeg) center no-repeat;
     background-size: cover;
-    z-index: 1;
     opacity: 0.8;
-    /*https://unsplash.com */
-    height: 100%;
     color: aliceblue;
 }
-*{
-    box-sizing: border-box;
-}
-/******************** form **************************/
-.form{
-    width: 100%;
-    
-}
-.logo{
+
+/* form */
+.logo {
     width: 270px;
     height: 270px;
+    margin: auto;
 }
-.form-title{
+
+.form-title {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 15px;
-    
 }
-.form-inner{
+
+.form-inner {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.form-line{
+
+.form-line {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    
 }
-.form-block{
+
+.form-block {
     width: 250px;
     margin: 0 20px;
-    
 }
-.form-label{
+
+.form-label {
     font-weight: 400;
     margin-bottom: 5px;
-    color: aliceblue;
 }
+
 .form-input{
     height: 45px;
     width: 100%;
     border-radius: 5px;
     border: 3px solid #9aca56;
-    outline: 0;
+    outline: transparent;
     transition: all 0.3s ease-in-out;
     padding-left: 9px;
-    font-size: 16px;
-    font-family: 'Nunito', 'Helvetica', Arial, sans-serif;
     margin-bottom: 10px;
     background: #adb5bd;
 }
-.form-input:focus{
+
+.form-input:focus {
     border-color: rgba(0, 0, 0, 0.7);
 }
-.form .btn{
+
+.form .btn {
     margin-top: 18px;
 }
-.container-form{
+
+.container-form {
     width: 90%;
     margin: auto;
-    z-index: 999;
 }
 
-/******************************** buttom ***********************/
-.btn{
-    color: aliceblue;
-    text-decoration: none;
+/* buttom */
+.btn {
     padding: 13px 30px;
     background: #9aca56;
     border-radius: 3px;
-    font-family: 'Nunito', 'Helvetica', Arial, sans-serif;
     font-size: 18px;
     cursor: pointer;
     border: 2px solid#9aca56;
     transition: all 0.2s ease-in-out;
 }
 
-.btn:hover{
-    /*color: #118ab2;*/
+.btn:hover {
     border-color:  #118ab2;
     background-color: #118ab2;
-
-
 }
